@@ -1,0 +1,26 @@
+# map()
+
+## With mutiple if statements
+```js copy
+const languageArray = [{name: 'en'},{name: 'es'}];
+
+{
+  languageArray
+  ?
+  languageArray.map((item, index) => {
+    if(item.name === 'en') {
+      return (
+        <div key={index}>English</div>
+      ) 
+    }
+    if(item.name === 'es') {
+      return (
+        <div key={index}>Spanish</div>
+      ) 
+    }            
+  })
+  : null         
+}
+```
+
+[map() Reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map)

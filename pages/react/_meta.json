@@ -1,0 +1,7 @@
+{
+  "index": "React Index",
+  "iife": "IIFE",
+  "renderDynamicComponents": "Render Dynamic Components",  
+  "map": "map()",
+  "spreadOperator": "Spread Operator"
+}

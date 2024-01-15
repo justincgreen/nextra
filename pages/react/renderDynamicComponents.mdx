@@ -1,0 +1,16 @@
+# Render components dynamically with a switch statement
+
+```js filename="render-example.js" copy
+{
+  globalCompsList.map((item, index) =>
+    {
+      switch(item.name) {
+        case 'global-comp': return <GlobalComp key={item.id} id={item.id} />;
+        case 'page-header': return <PageHeader key={item.id} id={item.id} globalCompsList={globalCompsList} setGlobalCompsList={setGlobalCompsList} />;
+        case 'adspace': return <AdSpace key={item.id} id={item.id} className="testing-class" globalCompsList={globalCompsList} setGlobalCompsList={setGlobalCompsList} />;
+        default: return null;
+      }
+    }
+  )
+}
+```

@@ -1,0 +1,14 @@
+# Spread Operator
+
+```js copy
+// Copies previous array and adds new element to array
+const handleClick = () => {
+  if(parksVisited.indexOf(parkCode) === -1) { // if parkCode doesn't exist in parksVisited array add it
+    const visitedParksList = [...parksVisited, parkCode];
+    setParksVisited(visitedParksList);
+    localStorage.setItem('local-parks-visited', JSON.stringify(visitedParksList)); 
+  }
+}
+```
+
+[Spread Operator Reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax)
