@@ -31,7 +31,7 @@ export default {
   //   light: 100,
   // },
   footer: {
-    text: `MIT ${new Date().getFullYear()} © DocsGPT`,
+    text: `MIT ${new Date().getFullYear()} © Justin Green Code Snippets`,
   },
   // ... other theme options
 }

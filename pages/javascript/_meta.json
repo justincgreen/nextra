@@ -1,4 +1,5 @@
 {
-  "generateID": "Generate ID",
-  "applyMultipleClasses": "Apply Multiple Classes"
+  "applyMultipleClasses": "Apply Multiple Classes",
+  "currentMonth": "Current Month",
+  "generateID": "Generate ID"    
 }
