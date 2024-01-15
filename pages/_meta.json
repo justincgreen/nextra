@@ -1,7 +1,8 @@
 {
-  "index": "Home",
+  "index": "📌 Home",
   "github_link": {
     "title": "Justin Green GitHub",
-    "href": "https://github.com/justincgreen"
+    "href": "https://github.com/justincgreen",
+    "newWindow": true
   }
 }
