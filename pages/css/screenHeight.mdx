@@ -1,0 +1,13 @@
+# Full Screen Height
+
+```scss copy
+.element {
+  min-height: 100vh;
+}
+```
+
+## 🏕️ Dev Note
+There is a rendering bug if you use “height: 100vh”
+If the element child or children extend beyond the height of the screen it will show transparent space when you scroll down the page. 
+
+Use “min-height: 100vh” instead to work around this, this method works as you would expect it to. (Note: only tested in Chrome so far)
